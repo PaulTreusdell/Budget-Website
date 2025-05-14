@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href = "style.css">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+</head>
+<body id = "bod">
+  <div id = "main" class="main-box">
+    <h1 class="header">Check The Box To Find Your Pay</h1>
+    <h5 class="sub-heading">Check The Box That Matches Your Income For the Week</h5>
+
+    <div class="checkboxes">
+      <input id = "salary" type="checkbox"> Weekly Salary
+      <input id = "hour" class="hourly" type="checkbox"> Hourly Pay <br>
+    </div>
+    <div class="hour-input">
+      <input id="hours-inp" class="hours-input" placeholder="Enter Hourly Pay" type="number"> <br>
+      <input id="hour-inp" class="hourly-input" placeholder="Enter Hours Worked" type="number">
+    </div>
+    <div class="input">
+      <div class="sal-input">
+        <input id ="sal-inp" class="salary-input" placeholder="Enter Salary" type="number">
+      </div>
+    <button id="sal-button" class="salary-button">Check Your Salary!</button>
+    </div>
+  </div>
+
+  <div id="main2" class="main2-area">
+    <div class="header2">
+      <img class="pfp" src= "pictures/shrek.jpg">
+      <div class="container">
+        <p id="amount"></p>
+      </div>
+      <img class="menu" src="pictures/file.png">
+    </div>
+
+    <div class="main2-body">
+      <div id="left" class="left">
+        <h1 class="header3">Payments</h1>
+        <div id = "payments" class="payments">
+
+        </div>
+      </div>
+
+      <div class="mid">
+        <h1 class="header3">Enter New Payment</h1>
+        <div class="container2">
+          <input class="payment-input" min="1" id = "pay" placeholder="Enter Expense" type="number">
+          <input class="type-input" placeholder="Enter Type" id="type">
+          <input class="date-input" id="date" type="date" min="2000-01-01" max="2025-01-01">
+          <button class="submit-entry" id="submit">Submit</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <h1 class="header3">Breakdown</h1>
+        <div id="myDiv">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

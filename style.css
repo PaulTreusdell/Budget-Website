@@ -1,0 +1,171 @@
+body {
+  background-color: black;
+}
+.main-box {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 1em 1em 1em 1em;
+  height: 200px;
+  box-shadow: 0px 0px 20px purple;
+  color: white;
+}
+
+.main2-area {
+  display: none;
+  background-color:black;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  border-bottom: 2px solid white;
+  position:sticky;
+}
+
+.pfp, .container, .menu {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.hour-input {
+  display: none;
+  margin-left: 8em;
+  margin-top: .3em;
+}
+
+.hourly-input, .hours-input {
+  margin: .5em .5em 0em .5em;
+  padding: 5px 5px 5px 5px;
+}
+.container {
+  display: flex;
+  color: black;
+  background-color: white;
+  padding: 5px 20px 5px 20px;
+  border: 2px solid purple;
+  border-radius: 25px;
+}
+
+.pfp {
+  margin-left: 2em;
+  margin-top: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+
+.menu {
+  height: 50px;
+  width: 50px;
+  margin-right: 2em;
+  margin-top: 15px;
+}
+.left, .mid, .right {
+  top: 0;
+  float: left;
+  width: 33.3%;
+  height: 800px;
+}
+
+.sub-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.checkboxes, .input {
+  display: block;
+  justify-content: center;
+}
+
+.checkboxes {
+  margin-left: 20%;
+}
+
+.hourly {
+  margin-left: 2em;
+}
+
+.input {
+  margin-left: 1em;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+.salary-input {
+  padding: 5px 5px 5px 5px;
+  margin: -.5em .5em 1.5em 9em;
+  display: none;
+}
+
+.salary-button {
+  color: black;
+  background-color: white;
+  padding: 8px 8px 8px 8px;
+  border-radius: 12px;
+  cursor: pointer;
+  border: none;
+  transition: .15s;
+  margin-left: 11em;
+  display: block;
+}
+
+.salary-button:hover {
+  color: white;
+  background-color: black;
+  border: 2.5px solid lightgray;
+}
+
+.salary-button:active {
+  background-color: darkgray;
+}
+
+.header3 {
+  display: flex;
+  justify-content: center;
+}
+
+.payments {
+  height: 600px;
+  overflow: auto;
+}
+
+.p1 {
+  margin-left: 15px;
+  padding: 15px 20px 20px 15px;
+  display: inline;
+}
+
+.container2 {
+  margin-top: 50%;
+  margin-left: 32%;
+}
+
+.payment-input, .type-input, .date-input, .submit-entry {
+  padding: 15px 15px 15px 15px;
+  margin: 5px 10px 5px 10px;
+}
+
+.date-input {
+  width: 157px;
+}
+
+.submit-entry {
+  width: 191px;
+  background-color: rgb(111, 204, 111);
+  border: 2px solid black;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.submit-entry:hover {
+  background-color: lightgreen;
+}
+
+
+
